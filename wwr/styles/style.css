@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kalam&family=Montserrat:wght@500&display=swap');
+
 body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 22px;
     background-color:#0077b6;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 #content {
@@ -11,10 +21,15 @@ header {
     background-color:#0077b6;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,8 +45,19 @@ nav a:hover {
     text-align: center;
 } 
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
 .home-title {
     color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -46,12 +72,17 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .logo, .icon {
     width: 80px;
 }
 
 .icon {
     background-color: white;
+    padding-top: 10px;
 }
 
 #background {
@@ -61,16 +92,23 @@ main section {
 
 .msg h2 {
     color: white;
+    font-family: 'Kalam', cursive;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .book, .join {
     background-color:#90e0ef;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -79,13 +117,23 @@ main section {
 }
 
 .msg {
-    background-color:#0077b6;
+    background-color:#00b0b6;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.mountains {
+    padding: 100px 0;
+    margin-bottom: 100px;
 }
 
 footer {
-    background-color :#0077b6;
+    background-color :#00b0b6;
     color: #f4d35e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 
 footer p {
     font-size: 1.2em;
@@ -102,6 +150,10 @@ footer a {
 
 footer a:hover {
     color: white;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 main h2 {
